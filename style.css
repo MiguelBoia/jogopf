@@ -127,3 +127,18 @@ body {
     transition: filter 0.7;
     
 }
+
+.button:hover {
+    filter: sepia(0.5);
+    filter: drop-shadow(0.5); /* usado para dar efeito quando clicar nos botões */
+    filter: brightness(0.8);
+
+}
+
+.controles-Contenção {
+    margin-top: 20px;     /* usado para estilizar os botões começar e próxima pergunta */
+}
+
+.hide {
+    display:none; /* usado para esconder o conteudo especifico */
+}

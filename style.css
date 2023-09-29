@@ -1,0 +1,25 @@
+@keyframes nome {
+    from {background-color: black;}
+    to {background-color: yellow;} /* utilizado para criar e estilizar a animação do html */
+}
+
+* {
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;  /* usado para tornar a pág em um formato unico, quebrando o padrão que já vem nela*/
+}
+
+a {
+
+    color: red;
+    text-decoration: none;  /* estilização do link sobre */
+
+}
+
+ul {
+    display: flex;
+    height: 600px;
+    list-style-type: none;      /* estilização do botão sobre com efeitos usado para deixar ele no canto inferior direito*/
+    align-items: end;
+    padding: auto;
+}

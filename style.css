@@ -62,21 +62,9 @@ body {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    align-items: center;
+    align-items: center;}
 
-    div {
-        width: 100px;
-        height: 100px;
-        
-        animation-name: nome;
-        animation-duration: 5s;
-        animation-timing-function: ease-in-out; /* está sendo criado uma animação */
-        animation-iteration-count: infinite;
-        animation-play-state: running;}
-        @keyframes animation { 50.0%
-        {linear-gradient(red,yellow);}
-    }
-}
+
 .Contenção {
     
     background-color:black;
@@ -105,4 +93,37 @@ body {
         @keyframes animation { 50.0%
         {linear-gradient(red,yellow);}
     }
+}
+
+.questões-Contenção {
+    width: 100%;
+    display:flex;
+    flex-direction: column;
+    justify-content: center; /*usado para estilizar e centralizar as questões */
+    align-items: center;
+    gap: 15xp;
+}
+
+.questões {
+    margin-top: 0px;
+    font-size: 30px;
+    font-weight: bold;
+    text-align: center;     /* usado para criar as estilizações das perguntas. EX:.quanto é 5+5? */
+    padding-top: 25px;
+    padding-bottom: 25px;
+}
+
+.respostas-Contenção {
+    width: 100%;        /*usado para criar e conter as questões pra ficar organizado. width é especifica para largura */
+    display: grid;
+    gap: 20px;
+}
+.button {
+    background-color: beige;
+    color: black;
+    font-size: medium;
+    height: 30px;               /* estilização dos bões e transições*/
+    padding: 0 32px;
+    transition: filter 0.7;
+    
 }

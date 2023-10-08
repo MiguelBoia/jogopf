@@ -9,3 +9,15 @@ _proPergunta.addEventListener("click", próximaQuestão )
 
 let currentQuestionIndex = 0
 let totalCorreta = 0
+
+function estartaJogo() {
+    _começarButton.classList.add("hide")
+    _questõesContenção.classList.remove("hide") // funções feitas para começar o jogo sem dá erro, escondendo e removendo butões visuais //
+    próximaQuestão() //função com o objetivo de chamar a próxima questão//
+}
+
+function próximaQuestão() {
+        while(_centroPerguntas.firstChild) {
+            _centroPerguntas.removeChild(_centroPerguntas.firstChild) //laço de repetição para remover os resquícios, os filhos//
+        }
+    }

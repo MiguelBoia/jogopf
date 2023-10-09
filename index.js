@@ -47,3 +47,13 @@ if (resCerta.dataset.correto) {
     else {
         document.body.classList.add("incorreto")
     }
+
+    document.querySelectorAll(".respostas").forEach(button) => {
+        if (button.dataset.correto) {
+            button.classList.add("correto")
+        } else {
+            button.classList.add("incorreto")
+        }
+        button.disabled = true
+    
+    }

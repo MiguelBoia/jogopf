@@ -32,3 +32,12 @@ perguntas[currentQuestionIndex].respostas.forEach(respostas)=> {
 
 const resB = document.createElement("button")
 }
+resB.classList.add("button", "respostas")
+    resB.textContent = respostas.text
+    if (respostas.correto) {resB.dataset.correto = respostas.correto}
+    _centroPerguntas.appendChild(resB)
+    
+    resB.addEventListener("click", seleçãoPerguntas)
+function seleçãoPerguntas(event) {
+    const resCerta = event.target
+}

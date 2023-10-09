@@ -20,7 +20,7 @@ function próximaQuestão() {
         while(_centroPerguntas.firstChild) {
             _centroPerguntas.removeChild(_centroPerguntas.firstChild) //laço de repetição para remover os resquícios, os filhos//
         }
-    }
+    
     document.body.removeAttribute("class")
     _proPergunta.classList.add("hide")
 
@@ -28,19 +28,20 @@ function próximaQuestão() {
 
 
 _alertaMensagem.textContent = perguntas[currentQuestionIndex].pergunta // dentro do textContent pegou as perguntas atuais do index// 
-perguntas[currentQuestionIndex].respostas.forEach(respostas)=> {
+perguntas[currentQuestionIndex].respostas.forEach(respostas=> {
 
-const resB = document.createElement("button")
-}
-resB.classList.add("button", "respostas")
+    const resB = document.createElement("button")
+    resB.classList.add("button", "respostas")
     resB.textContent = respostas.text
     if (respostas.correto) {resB.dataset.correto = respostas.correto}
     _centroPerguntas.appendChild(resB)
     
     resB.addEventListener("click", seleçãoPerguntas)
+
+})}
 function seleçãoPerguntas(event) {
     const resCerta = event.target
-}
+
 if (resCerta.dataset.correto) {
     document.body.classList.add("correto")  // função criada para capturar a resposta certa e foi criado uma função para selecionar as respostas certas e erradas para mudarem as cores//
     totalCorreta++}
@@ -48,7 +49,7 @@ if (resCerta.dataset.correto) {
         document.body.classList.add("incorreto")
     }
 
-    document.querySelectorAll(".respostas").forEach(button) => {
+    document.querySelectorAll(".respostas").forEach(button => {
         if (button.dataset.correto) {
             button.classList.add("correto")
         } else {
@@ -56,10 +57,10 @@ if (resCerta.dataset.correto) {
         }
         button.disabled = true
     
-    }
+    })
     _proPergunta.classList.remove("hide")
 currentQuestionIndex++;
-
+}
 
 
 const perguntas = [

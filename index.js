@@ -257,3 +257,18 @@ const perguntas = [
 
 
 },
+]
+
+
+
+function fimGame() {
+    const totalPerguntas = perguntas.length;
+    const resultado = Math.floor((totalCorreta * 100) / totalPerguntas);
+    
+    
+
+    _questõesContenção.innerHTML = `
+      <p class="acabou"> Sua performace foi ${totalCorreta} de ${totalPerguntas} com ${resultado}% de acertos das questões!
+      <button onclick=window.location.reload() class="button"> Refazer teste </button>
+  `;
+  } 

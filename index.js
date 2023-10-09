@@ -113,3 +113,49 @@ const perguntas = [
             { text: "o caminho para o Japão feudal", correto: false }
         ]
     },
+    {
+        pergunta: " Em qual local os humanos vivem?",
+        respostas: [
+            { text: "Planeta Marte", correto: false },
+            { text: "Planeta Terra", correto: true },
+            { text: "Planeta Saturno", correto: false },
+            { text: "Estrela Sol", correto: false }
+        ]
+    },
+   
+    {
+        pergunta: " Qual o plural de  Beija-flor?",
+        respostas: [
+            { text: "beijas-flor", correto: false },
+            { text: "beija-flores", correto: true },
+            { text: "beijas-flores", correto: false },
+            { text: "beijar-flores", correto: false }
+        ]
+    },
+    {
+        pergunta: " Personagem bíblico famoso por ter sua força provinda dos cabelos?",
+        respostas: [
+            { text: "Sansão", correto: true },
+            { text: "Pedro", correto: false },
+            { text: "João", correto: false },
+            { text: "Daniel", correto: false }
+        ]
+    },
+    {
+        pergunta: " Quais são os dois planetas do Sistema solar que não possuem satélites?",
+        respostas: [
+            { text: "Terra e Marte", correto: false },
+            { text: "Terra Plutão", correto: false },
+            { text: "Terra e Mercúrio", correto: false },
+            { text: "Mercúrio e Vênus", correto: true }
+        ]
+    },
+    {
+        pergunta: " Em que esporte se destacou Éder Jofre?",
+        respostas: [
+            { text: "volei", correto: false },
+            { text: "basquete", correto: false },
+            { text: "Boxe", correto: true },
+            { text: "futebol", correto: false }
+        ]
+    },

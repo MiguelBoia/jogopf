@@ -57,3 +57,59 @@ if (resCerta.dataset.correto) {
         button.disabled = true
     
     }
+    _proPergunta.classList.remove("hide")
+currentQuestionIndex++;
+
+
+
+const perguntas = [
+    {
+        pergunta: " Em que dia se comemora o dia mundial da mulher?",
+        respostas: [
+            { text: "10 de junho", correto: false },
+            { text: "8 de março", correto: true },
+            { text: "20 de março", correto: false },
+            { text: "8 de abril", correto: false }
+        ]
+    },
+
+    {
+        pergunta: " Que nome se dá ao medico especializado em crianças?",
+        respostas: [
+            { text: "Ortopedia", correto: false },
+            { text: "Pediatra", correto: true },
+            { text: "Patologia", correto: false },
+            { text: "Angiologia", correto: false }
+        ]
+
+    },
+
+    {
+        pergunta: " O mílesimo gol de Pelé foi marcado em?",
+        respostas: [
+            { text: "tiro de meta", correto: false },
+            { text: "lance normal", correto: false },
+            { text: "cobrança de falta", correto: false },
+            { text: "cobrança de penalti", correto: true }
+        ]
+    },
+
+    {
+        pergunta: " Como são chamados as pessoas que vivem no Pólo Ártico?",
+        respostas: [
+            { text: "esquimos", correto: true },
+            { text: "ayoreo", correto: false },
+            { text: "ratanabá", correto: false },
+            { text: "polares", correto: false }
+        ]
+    },
+
+    {
+        pergunta: " O que Cristovão Colombo procurava quando descobriu a América?",
+        respostas: [
+            { text: "o caminho para o fim do mar", correto: false },
+            { text: "o caminho para a Africa", correto: false },
+            { text: "o caminho para as Índias", correto: true },
+            { text: "o caminho para o Japão feudal", correto: false }
+        ]
+    },

@@ -159,3 +159,48 @@ const perguntas = [
             { text: "futebol", correto: false }
         ]
     },
+    {
+        pergunta: " Qual o maior país da America Latina?",
+        respostas: [
+            { text: "Brasil", correto: true },
+            { text: "Argentina", correto: false },
+            { text: "Chile", correto: false },
+            { text: "Uruguai", correto: false }
+        ]
+    },
+    {
+        pergunta: " Como se chamou o primeiro avião feito por Santos Dumont?",
+        respostas: [
+            { text: "Flyer III", correto: false },
+            { text: "14 Bis", correto: true },
+            { text: "15 Bis", correto: false },
+            { text: "11 Bis", correto: false }
+        ]
+    },
+    {
+        pergunta: " Qual o plural de  calça cor-de-rosa?",
+        respostas: [
+            { text: "calças cores-de-rosas", correto: false },
+            { text: "calças de rosas", correto: false },
+            { text: "calças cor-de-rosa", correto: true },
+            { text: "calça cor-de-rosas", correto: false }
+        ]
+    },
+    {
+        pergunta: " Qual a primeira emissora de TV inaugurada no Brasil?",
+        respostas: [
+            { text: "TV Tupi", correto: true },
+            { text: "Globo", correto: false },
+            { text: "SBT", correto: false },
+            { text: "Globe", correto: false }
+        ]
+    },
+    {
+        pergunta: " Como se chama o defeito visual contrário à miopia?",
+        respostas: [
+            { text: "glaucoma", correto: false },
+            { text: "hipermetropia", correto: true },
+            { text: "conjuntivite", correto: false },
+            { text: "catarata", correto: false }
+        ]
+    }, 

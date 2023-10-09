@@ -41,3 +41,9 @@ resB.classList.add("button", "respostas")
 function seleçãoPerguntas(event) {
     const resCerta = event.target
 }
+if (resCerta.dataset.correto) {
+    document.body.classList.add("correto")  // função criada para capturar a resposta certa e foi criado uma função para selecionar as respostas certas e erradas para mudarem as cores//
+    totalCorreta++}
+    else {
+        document.body.classList.add("incorreto")
+    }

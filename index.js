@@ -204,3 +204,56 @@ const perguntas = [
             { text: "catarata", correto: false }
         ]
     }, 
+    
+    {
+        pergunta: " Quem instituiu os primeiros jogos olímpicos da era moderna?",
+        respostas: [
+            { text: "Barão de Anhumas", correto: false },
+            { text: "Barão de Coubertain", correto: true },
+            { text: "Lula", correto: false },
+            { text: "Greta Thunberg", correto: false }
+        ]
+    },
+
+{
+    pergunta: "Em que ano ocorreu a revolução francesa?",
+    respostas: [
+        { text: "1889", correto: false },
+        { text: "1792", correto: false },
+        { text: "1789", correto: true },
+        { text: "1650", correto: false }
+
+    ]
+},
+{
+    pergunta: "Quem foi Napoleão Bonaparte?",
+    respostas: [
+        { text: "Imperador alemão", correto: false},
+        { text: "Imperador Brasileiro", correto: false },
+        { text: "Imperador Romano", correto: false },
+        { text: "Imperador Francês", correto: true }
+
+    ]
+},
+{
+    pergunta:"Quanto tempo durou o Império Romano?",
+    respostas: [
+        { text: "5 séculos", correto: true},
+        { text: "10 séculos", correto: false },
+        { text: "2 séculos", correto: false},
+        { text: "12 séculos", correto: false}
+
+    ]
+    }, 
+{
+    pergunta:"Atualmente quantos elementos químicos da tabela periódica possui?",
+    respostas: [
+        { text: "120", correto:false},
+        { text: "118", correto: true},
+        { text: "95", correto: false},
+        { text: "100", correto: false}
+    ]
+
+
+
+},

@@ -21,3 +21,14 @@ function próximaQuestão() {
             _centroPerguntas.removeChild(_centroPerguntas.firstChild) //laço de repetição para remover os resquícios, os filhos//
         }
     }
+    document.body.removeAttribute("class")
+    _proPergunta.classList.add("hide")
+
+    if (perguntas.length === currentQuestionIndex) { return fimGame()}
+
+
+_alertaMensagem.textContent = perguntas[currentQuestionIndex].pergunta // dentro do textContent pegou as perguntas atuais do index// 
+perguntas[currentQuestionIndex].respostas.forEach(respostas)=> {
+
+const resB = document.createElement("button")
+}
